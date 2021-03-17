@@ -18,7 +18,7 @@ function AirportInfo() {
                     "useQueryString": true
                 }
             }
-            let response = await fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/US/USD/en-US/?" + new URLSearchParams({query: query}), reqOptions)
+            let response = await fetch("https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/v1.0/US/USD/en-US/?" + new URLSearchParams({query: query}), reqOptions)
             response = await response.json()
             console.log(response.Places)
             setPlaces(response.Places)
@@ -31,7 +31,7 @@ function AirportInfo() {
     return(
         <div className="airportinfo">
            <form onSubmit={handleSubmit}>
-                <label htmlFor="queryInput">State or Country:</label>
+                <label htmlFor="queryInput">Origin Place:</label>
                 <input id="queryInput" value={query} onChange={e => setQuery(e.target.value)} required/>
                 <button className="search">Submit</button>
            </form>
