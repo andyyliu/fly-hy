@@ -21,10 +21,10 @@ function Flights(props) {
                             <th>{flight.QuoteId}</th>
                             <th>{flight.MinPrice}</th>
                             <th>{flight.Direct ? "Yes" : "No"}</th>
-                            <th>{flight.CountryId}</th>
+                            {/* <th>{flight.CountryId}</th>
                             <th>{flight.RegionId}</th>
                             <th>{flight.CityId}</th>
-                            <th>{flight.CountryName}</th>
+                            <th>{flight.CountryName}</th> */}
                         </tr>);
                     })}
                 </tbody>
