@@ -2,39 +2,48 @@
     width: 80%;
     margin: 0 auto; 
     padding: 20px; 
-    border: 1px dotted black; 
+    border: none; 
     height: 80vh; 
     overflow-y: auto;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
+    display: flex;
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
+    border: none;
 }
 
 .search {
-    background-color: #008140;
-    padding: 20px 20px;
-    height: 10px;
-    color: white; 
-    border-radius: 12px;
-    display: block;
-    line-height: 0px;
-    font-size: 16px;
+   width: 80px;
+   background-color: lightskyblue;
+   color: white;
+   padding: 12px;
+   margin: 4px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   font-size: 10pt;
+}
+
+.search:hover {
+    background-color: lightcoral;
 }
 
 label {
     font-size: 20px;
+    border: none;
 }
 
-
 #queryInput {
-    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
-    border-radius: 5px;
+    width: 270px;
     padding: 10px;
-    margin: 10px;
+    margin: 6px 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+#formSubmit {
+    border: none;
+    font-weight: bold;
+    float: left;
 }

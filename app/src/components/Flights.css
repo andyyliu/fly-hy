@@ -1,15 +1,17 @@
-.places {
-    padding-top: 20px;
+.flights {
+    margin-left: 15%;
 }
 
 table {
     border-collapse: collapse;
+    float: right;
 }  
 
 td, th {
-    border: 1px solid #999;
-    padding: 0.5rem;
-    text-align: left;
+    border: none;
+    padding: 0.7rem;
 }
-  
-  
+
+.flightResults {
+    text-align: center;
+}
