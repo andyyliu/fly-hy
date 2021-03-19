@@ -41,23 +41,23 @@ function AirportInfo() {
                     <tbody>
                         <tr>
                             <td><label htmlFor="queryInput">Currency:</label></td>
-                            <td><input id="queryInput" value={currency} onChange={e => setCurrency(e.target.value)} required /></td>
+                            <td><input id="queryInput" value={currency} onChange={e => setCurrency(e.target.value)} placeholder="Enter currency symbol (ex. USD):" required /></td>
                         </tr>
                         <tr>
                             <td><label htmlFor="queryInput">Origin:</label></td>
-                            <td><input id="queryInput" value={from} onChange={e => setFrom(e.target.value)} required /></td>
+                            <td><input id="queryInput" value={from} onChange={e => setFrom(e.target.value)} placeholder="Enter airport code (ex. JFK-sky):" required /></td>
                         </tr>
                         <tr>
                             <td><label htmlFor="queryInput">Destination:</label></td>
-                            <td><input id="queryInput" value={to} onChange={e => setTo(e.target.value)} required /></td>
+                            <td><input id="queryInput" value={to} onChange={e => setTo(e.target.value)} placeholder="Enter airport code (ex. LAX-sky):" required /></td>
                         </tr>
                         <tr>
                             <td><label htmlFor="queryInput">Start Date:</label></td>
-                            <td><input id="queryInput" value={inbound} onChange={e => setInbound(e.target.value)} required /></td>
+                            <td><input id="queryInput" value={inbound} onChange={e => setInbound(e.target.value)} placeholder="Enter date in YYYY-MM-DD format:" required /></td>
                         </tr>
                         <tr>
                             <td><label htmlFor="queryInput">End Date:</label></td>
-                            <td><input id="queryInput" value={outbound} onChange={e => setOutbound(e.target.value)} /></td>
+                            <td><input id="queryInput" value={outbound} onChange={e => setOutbound(e.target.value)} placeholder="Enter date in YYYY-MM-DD format:" /></td>
                         </tr>
                         <tr>
                             <td></td>

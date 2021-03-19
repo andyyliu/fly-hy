@@ -10,16 +10,20 @@ function Flights(props) {
                         <th>Flight ID</th>
                         <th>Price</th>
                         <th>Direct Flight</th>
+                        <th>Carrier ID</th>
+                        <th>Departure Date</th>
                     </tr>
                 </thead>
                 <tbody>
                     {props.flights.map(flight => {
                         return (<tr id={flight.QuoteId}>
-                            <th>{flight.QuoteId}</th>
-                            <th>{flight.MinPrice}</th>
-                            <th>{flight.Direct ? "Yes" : "No"}</th>
+                            <td>{flight.QuoteId}</td>
+                            <td>{flight.MinPrice}</td>
+                            <td>{flight.Direct ? "Yes" : "No"}</td>
+                            <td>{flight.OutboundLeg.CarrierIds}</td>
+                            <td>{flight.OutboundLeg.DepartureDate.slice(0, 10)}</td>
                         </tr>)
-                    })};
+                    })}
                 </tbody>
             </table>
         </div>

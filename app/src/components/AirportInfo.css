@@ -14,7 +14,7 @@ form {
 }
 
 .search {
-   width: 80px;
+   width: 120px;
    background-color: lightskyblue;
    color: white;
    padding: 12px;
@@ -22,7 +22,7 @@ form {
    border: none;
    border-radius: 3px;
    cursor: pointer;
-   font-size: 10pt;
+   font-size: 14pt;
 }
 
 .search:hover {
