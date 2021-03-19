@@ -27,7 +27,6 @@ function AirportInfo() {
             let endpoint = "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsedates/v1.0/US/" + currency + "/en-US/" + from + "/" + to + "/" + inbound + trueOutbound
             let response = await fetch(endpoint, reqOptions)
             response = await response.json()
-            console.log(response.Quotes)
             setFlights(response.Quotes)
         }
         fetchMyAPI()
