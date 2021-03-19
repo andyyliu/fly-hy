@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fly-hy/static/css/main.e1551535.chunk.css",
-    "main.js": "/fly-hy/static/js/main.f0e7af8b.chunk.js",
-    "main.js.map": "/fly-hy/static/js/main.f0e7af8b.chunk.js.map",
+    "main.css": "/fly-hy/static/css/main.a397e0b8.chunk.css",
+    "main.js": "/fly-hy/static/js/main.b3ed3ee2.chunk.js",
+    "main.js.map": "/fly-hy/static/js/main.b3ed3ee2.chunk.js.map",
     "runtime-main.js": "/fly-hy/static/js/runtime-main.543ba612.js",
     "runtime-main.js.map": "/fly-hy/static/js/runtime-main.543ba612.js.map",
     "static/js/2.bf6d9335.chunk.js": "/fly-hy/static/js/2.bf6d9335.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.ee8dc5f2.chunk.js": "/fly-hy/static/js/3.ee8dc5f2.chunk.js",
     "static/js/3.ee8dc5f2.chunk.js.map": "/fly-hy/static/js/3.ee8dc5f2.chunk.js.map",
     "index.html": "/fly-hy/index.html",
-    "static/css/main.e1551535.chunk.css.map": "/fly-hy/static/css/main.e1551535.chunk.css.map",
-    "static/js/2.bf6d9335.chunk.js.LICENSE.txt": "/fly-hy/static/js/2.bf6d9335.chunk.js.LICENSE.txt"
+    "static/css/main.a397e0b8.chunk.css.map": "/fly-hy/static/css/main.a397e0b8.chunk.css.map",
+    "static/js/2.bf6d9335.chunk.js.LICENSE.txt": "/fly-hy/static/js/2.bf6d9335.chunk.js.LICENSE.txt",
+    "static/media/plane.e22f682c.png": "/fly-hy/static/media/plane.e22f682c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.543ba612.js",
     "static/js/2.bf6d9335.chunk.js",
-    "static/css/main.e1551535.chunk.css",
-    "static/js/main.f0e7af8b.chunk.js"
+    "static/css/main.a397e0b8.chunk.css",
+    "static/js/main.b3ed3ee2.chunk.js"
   ]
 }
