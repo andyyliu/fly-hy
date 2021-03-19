@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fly-hy/static/css/main.fc807027.chunk.css",
-    "main.js": "/fly-hy/static/js/main.59abc04c.chunk.js",
-    "main.js.map": "/fly-hy/static/js/main.59abc04c.chunk.js.map",
+    "main.js": "/fly-hy/static/js/main.f0e7af8b.chunk.js",
+    "main.js.map": "/fly-hy/static/js/main.f0e7af8b.chunk.js.map",
     "runtime-main.js": "/fly-hy/static/js/runtime-main.543ba612.js",
     "runtime-main.js.map": "/fly-hy/static/js/runtime-main.543ba612.js.map",
     "static/js/2.bf6d9335.chunk.js": "/fly-hy/static/js/2.bf6d9335.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.543ba612.js",
     "static/js/2.bf6d9335.chunk.js",
     "static/css/main.fc807027.chunk.css",
-    "static/js/main.59abc04c.chunk.js"
+    "static/js/main.f0e7af8b.chunk.js"
   ]
 }
