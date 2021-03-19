@@ -2,6 +2,8 @@ import React from 'react';
 import './Flights.css';
 
 function Flights(props) {
+    
+    // Return data pulled from Skyscanner API
     return (
         <div className="flights">
             <table id="flightResults">

@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import AirportInfo from './components/AirportInfo';
+import FlightInfo from './components/FlightInfo';
 import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Header title="Fly-Hy: Flight Options"></Header>
-      <AirportInfo></AirportInfo>
+      <FlightInfo></FlightInfo>
     </div>
   );
 }

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import './AirportInfo.css';
+import './FlightInfo.css';
 import Flights from "./Flights";
 
 function AirportInfo() {
+    
+    // Set variables to use for API call
     const [flights, setFlights] = useState([])
     const [showPlaces, setShowPlaces] = useState(false)
     const [currency, setCurrency] = useState("")
@@ -15,6 +17,8 @@ function AirportInfo() {
     function handleSubmit(e) {
         e.preventDefault()
         async function fetchMyAPI() {
+
+            // Call Skyscanner API
             const reqOptions = {
                 method: 'GET',
                 headers: {
@@ -33,6 +37,7 @@ function AirportInfo() {
         setShowPlaces(true)
     }
 
+    // Display results in table format
     return (
         <div className="airportinfo">
             <form onSubmit={handleSubmit}>
